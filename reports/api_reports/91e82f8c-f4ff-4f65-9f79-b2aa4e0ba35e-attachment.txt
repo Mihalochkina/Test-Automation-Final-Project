@@ -1,2 +1,0 @@
-2025-01-09 22:50:22.941 | DEBUG    | api_tests.test_breeds:test_breeds_status_code:17 - Testing breeds endpoint for correct status code
-2025-01-09 22:50:23.697 | INFO     | api_tests.test_breeds:test_breeds_status_code:20 - Breeds status code test passed with status 200

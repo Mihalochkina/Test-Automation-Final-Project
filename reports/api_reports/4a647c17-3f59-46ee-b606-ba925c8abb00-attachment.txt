@@ -1,6 +1,0 @@
-2025-01-09 22:45:10.667 | DEBUG    | ui_tests.test_sign_up_page:sign_up_page:9 - Navigating to the sign-up page
-2025-01-09 22:45:13.024 | DEBUG    | ui_tests.test_sign_up_page:test_sign_up_form_visible:24 - Testing visibility of the sign-up form
-2025-01-09 22:45:13.057 | ERROR    | conftest:pytest_exception_interact:23 - Exception in ui_tests/test_sign_up_page.py::test_sign_up_form_visible[chromium]: AssertionError, assert False
- +  where False = is_visible()
- +    where is_visible = <Locator frame=<Frame name= url='https://thecatapi.com/signup'> selector='form1'>.is_visible
-NoneType: None

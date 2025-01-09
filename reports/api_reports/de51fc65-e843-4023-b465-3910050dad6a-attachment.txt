@@ -1,3 +1,0 @@
-2025-01-09 22:24:46.972 | DEBUG    | ui_tests.test_sign_up_page:sign_up_page:9 - Navigating to the sign-up page
-2025-01-09 22:24:48.853 | DEBUG    | ui_tests.test_sign_up_page:test_sign_up_button_enabled:40 - Testing if the sign-up button is enabled
-2025-01-09 22:24:48.897 | INFO     | ui_tests.test_sign_up_page:test_sign_up_button_enabled:43 - Sign-up button is enabled

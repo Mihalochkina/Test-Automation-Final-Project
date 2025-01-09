@@ -1,2 +1,0 @@
-2025-01-09 22:56:41.592 | DEBUG    | api_tests.test_images:test_fetch_random_image:17 - Testing fetching of a random image
-2025-01-09 22:56:42.057 | INFO     | api_tests.test_images:test_fetch_random_image:23 - Random image fetch test passed

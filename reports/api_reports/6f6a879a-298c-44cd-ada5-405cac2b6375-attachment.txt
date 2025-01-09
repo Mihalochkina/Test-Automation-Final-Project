@@ -1,2 +1,0 @@
-2025-01-09 22:50:30.261 | DEBUG    | api_tests.test_votes:test_delete_vote:39 - Testing deletion of vote with ID: 1244359
-2025-01-09 22:50:30.873 | INFO     | api_tests.test_votes:test_delete_vote:42 - Delete vote test passed

@@ -139,4 +139,4 @@ config.env
 .playwright/
 
 .idea
-.pytest_cache
+reports/api_reports/

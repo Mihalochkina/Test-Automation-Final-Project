@@ -1,2 +1,0 @@
-2025-01-09 22:57:00.930 | DEBUG    | ui_tests.test_home_page:test_navigation_to_sign_up:28 - Testing navigation to the sign-up page via 'Get Started' button
-2025-01-09 22:57:03.804 | INFO     | ui_tests.test_home_page:test_navigation_to_sign_up:35 - Successfully navigated to the sign-up page

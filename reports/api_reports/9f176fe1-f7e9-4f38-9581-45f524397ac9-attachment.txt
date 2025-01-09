@@ -1,2 +1,0 @@
-2025-01-09 22:50:27.648 | DEBUG    | api_tests.test_images:test_image_content_type:35 - Testing images endpoint for correct content type
-2025-01-09 22:50:28.128 | INFO     | api_tests.test_images:test_image_content_type:38 - Image content type test passed

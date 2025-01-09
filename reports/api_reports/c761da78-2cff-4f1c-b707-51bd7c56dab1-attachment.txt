@@ -1,2 +1,0 @@
-2025-01-09 22:56:50.375 | DEBUG    | ui_tests.test_documentation_page:test_header_visible:18 - Testing visibility of the header on the documentation page
-2025-01-09 22:56:52.410 | INFO     | ui_tests.test_documentation_page:test_header_visible:22 - Header is visible on the documentation page

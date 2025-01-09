@@ -1,3 +1,0 @@
-2025-01-09 22:50:52.176 | DEBUG    | ui_tests.test_sign_up_page:sign_up_page:9 - Navigating to the sign-up page
-2025-01-09 22:50:54.074 | DEBUG    | ui_tests.test_sign_up_page:test_email_input_visible:32 - Testing visibility of the email input field
-2025-01-09 22:50:54.100 | INFO     | ui_tests.test_sign_up_page:test_email_input_visible:35 - Email input field is visible

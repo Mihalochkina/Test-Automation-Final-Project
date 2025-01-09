@@ -1,2 +1,0 @@
-2025-01-09 22:50:29.738 | DEBUG    | api_tests.test_votes:test_get_vote:33 - Testing retrieval of vote with ID: 1244359
-2025-01-09 22:50:30.256 | INFO     | api_tests.test_votes:test_get_vote:36 - Get vote test passed

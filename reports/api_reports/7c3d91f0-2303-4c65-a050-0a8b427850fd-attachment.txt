@@ -1,2 +1,0 @@
-2025-01-09 22:56:40.506 | DEBUG    | api_tests.test_breeds:test_list_all_breeds:47 - Testing retrieval of all breeds
-2025-01-09 22:56:41.040 | INFO     | api_tests.test_breeds:test_list_all_breeds:52 - List all breeds test passed

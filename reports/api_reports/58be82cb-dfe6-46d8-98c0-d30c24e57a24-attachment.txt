@@ -1,2 +1,0 @@
-2025-01-09 22:50:26.989 | DEBUG    | api_tests.test_images:test_specific_image_search:26 - Testing specific image search with criteria
-2025-01-09 22:50:27.643 | INFO     | api_tests.test_images:test_specific_image_search:32 - Specific image search test passed

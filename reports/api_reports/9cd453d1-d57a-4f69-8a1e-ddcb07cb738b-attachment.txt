@@ -1,2 +1,0 @@
-2025-01-09 22:56:47.512 | DEBUG    | ui_tests.test_documentation_page:test_documentation_page_load:9 - Testing documentation page load
-2025-01-09 22:56:50.195 | INFO     | ui_tests.test_documentation_page:test_documentation_page_load:13 - Documentation page loaded successfully with correct title

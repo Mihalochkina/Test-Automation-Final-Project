@@ -1,2 +1,0 @@
-2025-01-09 22:56:52.640 | DEBUG    | ui_tests.test_documentation_page:test_navigation_to_example:27 - Testing navigation to the '💻 Code Samples' section
-2025-01-09 22:56:54.922 | INFO     | ui_tests.test_documentation_page:test_navigation_to_example:34 - Navigated to Code Samples section successfully
