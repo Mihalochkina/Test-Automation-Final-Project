@@ -1,0 +1,54 @@
+2025-01-09 at 22:56:38 | DEBUG | Testing breeds endpoint for correct status code | test_breeds.py:test_breeds_status_code:17 | 
+2025-01-09 at 22:56:38 | INFO | Breeds status code test passed with status 200 | test_breeds.py:test_breeds_status_code:20 | 
+2025-01-09 at 22:56:38 | DEBUG | Testing breeds endpoint for correct content type | test_breeds.py:test_breeds_content_type:23 | 
+2025-01-09 at 22:56:39 | INFO | Breeds content type test passed | test_breeds.py:test_breeds_content_type:26 | 
+2025-01-09 at 22:56:39 | DEBUG | Testing retrieval of specific breed: abys | test_breeds.py:test_specific_breed:30 | 
+2025-01-09 at 22:56:39 | INFO | Specific breed test passed for breed code: abys | test_breeds.py:test_specific_breed:34 | 
+2025-01-09 at 22:56:40 | DEBUG | Testing breed search with query 'air' and image attached | test_breeds.py:test_search_breeds_with_query_and_image_attached:38 | 
+2025-01-09 at 22:56:40 | INFO | Breed search with query and image test passed | test_breeds.py:test_search_breeds_with_query_and_image_attached:44 | 
+2025-01-09 at 22:56:40 | DEBUG | Testing retrieval of all breeds | test_breeds.py:test_list_all_breeds:47 | 
+2025-01-09 at 22:56:41 | INFO | List all breeds test passed | test_breeds.py:test_list_all_breeds:52 | 
+2025-01-09 at 22:56:41 | DEBUG | Performing smoke test on breeds endpoint | test_breeds.py:test_health_check_breeds_endpoint:56 | 
+2025-01-09 at 22:56:41 | INFO | Breeds endpoint health check passed | test_breeds.py:test_health_check_breeds_endpoint:59 | 
+2025-01-09 at 22:56:41 | DEBUG | Testing fetching of a random image | test_images.py:test_fetch_random_image:17 | 
+2025-01-09 at 22:56:42 | INFO | Random image fetch test passed | test_images.py:test_fetch_random_image:23 | 
+2025-01-09 at 22:56:42 | DEBUG | Testing specific image search with criteria | test_images.py:test_specific_image_search:26 | 
+2025-01-09 at 22:56:42 | INFO | Specific image search test passed | test_images.py:test_specific_image_search:32 | 
+2025-01-09 at 22:56:42 | DEBUG | Testing images endpoint for correct content type | test_images.py:test_image_content_type:35 | 
+2025-01-09 at 22:56:42 | INFO | Image content type test passed | test_images.py:test_image_content_type:38 | 
+2025-01-09 at 22:56:43 | DEBUG | Performing smoke test on images endpoint | test_images.py:test_health_check_images_endpoint:42 | 
+2025-01-09 at 22:56:43 | INFO | Images endpoint health check passed | test_images.py:test_health_check_images_endpoint:45 | 
+2025-01-09 at 22:56:43 | DEBUG | Creating a new vote for testing | test_votes.py:vote_id:18 | 
+2025-01-09 at 22:56:44 | INFO | Vote created with ID: 1244360 | test_votes.py:vote_id:23 | 
+2025-01-09 at 22:56:44 | DEBUG | Testing fetching of created vote with ID: 1244360 | test_votes.py:test_create_vote:27 | 
+2025-01-09 at 22:56:44 | INFO | Create vote test passed | test_votes.py:test_create_vote:30 | 
+2025-01-09 at 22:56:44 | DEBUG | Testing retrieval of vote with ID: 1244360 | test_votes.py:test_get_vote:33 | 
+2025-01-09 at 22:56:45 | INFO | Get vote test passed | test_votes.py:test_get_vote:36 | 
+2025-01-09 at 22:56:45 | DEBUG | Testing deletion of vote with ID: 1244360 | test_votes.py:test_delete_vote:39 | 
+2025-01-09 at 22:56:45 | INFO | Delete vote test passed | test_votes.py:test_delete_vote:42 | 
+2025-01-09 at 22:56:45 | DEBUG | Performing smoke test on votes endpoint | test_votes.py:test_health_check_votes_endpoint:46 | 
+2025-01-09 at 22:56:46 | INFO | Votes endpoint health check passed | test_votes.py:test_health_check_votes_endpoint:49 | 
+2025-01-09 at 22:56:47 | DEBUG | Testing documentation page load | test_documentation_page.py:test_documentation_page_load:9 | 
+2025-01-09 at 22:56:50 | INFO | Documentation page loaded successfully with correct title | test_documentation_page.py:test_documentation_page_load:13 | 
+2025-01-09 at 22:56:50 | DEBUG | Testing visibility of the header on the documentation page | test_documentation_page.py:test_header_visible:18 | 
+2025-01-09 at 22:56:52 | INFO | Header is visible on the documentation page | test_documentation_page.py:test_header_visible:22 | 
+2025-01-09 at 22:56:52 | DEBUG | Testing navigation to the '💻 Code Samples' section | test_documentation_page.py:test_navigation_to_example:27 | 
+2025-01-09 at 22:56:54 | INFO | Navigated to Code Samples section successfully | test_documentation_page.py:test_navigation_to_example:34 | 
+2025-01-09 at 22:56:55 | DEBUG | Testing home page load | test_home_page.py:test_home_page_load:9 | 
+2025-01-09 at 22:56:57 | INFO | Home page loaded successfully with correct title | test_home_page.py:test_home_page_load:13 | 
+2025-01-09 at 22:56:58 | DEBUG | Testing visibility of the 'Get Started' button on the home page | test_home_page.py:test_get_started_button_visible:18 | 
+2025-01-09 at 22:57:00 | INFO | 'Get Started' button is visible on the home page | test_home_page.py:test_get_started_button_visible:23 | 
+2025-01-09 at 22:57:00 | DEBUG | Testing navigation to the sign-up page via 'Get Started' button | test_home_page.py:test_navigation_to_sign_up:28 | 
+2025-01-09 at 22:57:03 | INFO | Successfully navigated to the sign-up page | test_home_page.py:test_navigation_to_sign_up:35 | 
+2025-01-09 at 22:57:03 | DEBUG | Navigating to the sign-up page | test_sign_up_page.py:sign_up_page:9 | 
+2025-01-09 at 22:57:05 | DEBUG | Testing the title of the sign-up page | test_sign_up_page.py:test_title:17 | 
+2025-01-09 at 22:57:05 | INFO | Sign-up page title is correct | test_sign_up_page.py:test_title:19 | 
+2025-01-09 at 22:57:05 | DEBUG | Navigating to the sign-up page | test_sign_up_page.py:sign_up_page:9 | 
+2025-01-09 at 22:57:06 | DEBUG | Testing visibility of the sign-up form | test_sign_up_page.py:test_sign_up_form_visible:24 | 
+2025-01-09 at 22:57:06 | INFO | Sign-up form is visible | test_sign_up_page.py:test_sign_up_form_visible:27 | 
+2025-01-09 at 22:57:06 | DEBUG | Navigating to the sign-up page | test_sign_up_page.py:sign_up_page:9 | 
+2025-01-09 at 22:57:07 | DEBUG | Testing visibility of the email input field | test_sign_up_page.py:test_email_input_visible:32 | 
+2025-01-09 at 22:57:07 | INFO | Email input field is visible | test_sign_up_page.py:test_email_input_visible:35 | 
+2025-01-09 at 22:57:07 | DEBUG | Navigating to the sign-up page | test_sign_up_page.py:sign_up_page:9 | 
+2025-01-09 at 22:57:09 | DEBUG | Testing if the sign-up button is enabled | test_sign_up_page.py:test_sign_up_button_enabled:40 | 
+2025-01-09 at 22:57:09 | INFO | Sign-up button is enabled | test_sign_up_page.py:test_sign_up_button_enabled:43 | 
