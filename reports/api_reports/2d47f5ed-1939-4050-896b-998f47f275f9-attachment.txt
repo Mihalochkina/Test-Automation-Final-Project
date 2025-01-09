@@ -1,0 +1,2 @@
+2025-01-09 22:56:43.003 | DEBUG    | api_tests.test_images:test_health_check_images_endpoint:42 - Performing smoke test on images endpoint
+2025-01-09 22:56:43.502 | INFO     | api_tests.test_images:test_health_check_images_endpoint:45 - Images endpoint health check passed

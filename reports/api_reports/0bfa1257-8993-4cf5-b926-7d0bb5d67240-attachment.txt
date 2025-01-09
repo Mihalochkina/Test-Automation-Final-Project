@@ -1,0 +1,4 @@
+2025-01-09 22:50:28.625 | DEBUG    | api_tests.test_votes:vote_id:18 - Creating a new vote for testing
+2025-01-09 22:50:29.191 | INFO     | api_tests.test_votes:vote_id:23 - Vote created with ID: 1244359
+2025-01-09 22:50:29.192 | DEBUG    | api_tests.test_votes:test_create_vote:27 - Testing fetching of created vote with ID: 1244359
+2025-01-09 22:50:29.700 | INFO     | api_tests.test_votes:test_create_vote:30 - Create vote test passed

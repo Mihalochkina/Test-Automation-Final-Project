@@ -1,0 +1,2 @@
+2025-01-09 22:50:25.862 | DEBUG    | api_tests.test_breeds:test_health_check_breeds_endpoint:56 - Performing smoke test on breeds endpoint
+2025-01-09 22:50:26.498 | INFO     | api_tests.test_breeds:test_health_check_breeds_endpoint:59 - Breeds endpoint health check passed

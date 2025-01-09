@@ -1,0 +1,2 @@
+2025-01-09 22:29:00.868 | DEBUG    | ui_tests.test_sign_up_page:sign_up_page:9 - Navigating to the sign-up page
+2025-01-09 22:29:03.589 | DEBUG    | ui_tests.test_sign_up_page:test_title:17 - Testing the title of the sign-up page

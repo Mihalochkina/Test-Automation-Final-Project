@@ -1,0 +1,2 @@
+2025-01-09 22:56:45.592 | DEBUG    | api_tests.test_votes:test_health_check_votes_endpoint:46 - Performing smoke test on votes endpoint
+2025-01-09 22:56:46.204 | INFO     | api_tests.test_votes:test_health_check_votes_endpoint:49 - Votes endpoint health check passed

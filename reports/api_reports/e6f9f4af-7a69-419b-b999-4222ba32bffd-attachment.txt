@@ -1,0 +1,2 @@
+2025-01-09 22:50:24.285 | DEBUG    | api_tests.test_breeds:test_specific_breed:30 - Testing retrieval of specific breed: abys
+2025-01-09 22:50:24.675 | INFO     | api_tests.test_breeds:test_specific_breed:34 - Specific breed test passed for breed code: abys

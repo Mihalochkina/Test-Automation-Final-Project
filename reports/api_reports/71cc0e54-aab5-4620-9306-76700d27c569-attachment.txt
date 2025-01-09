@@ -1,0 +1,2 @@
+2025-01-09 22:50:24.680 | DEBUG    | api_tests.test_breeds:test_search_breeds_with_query_and_image_attached:38 - Testing breed search with query 'air' and image attached
+2025-01-09 22:50:25.183 | INFO     | api_tests.test_breeds:test_search_breeds_with_query_and_image_attached:44 - Breed search with query and image test passed

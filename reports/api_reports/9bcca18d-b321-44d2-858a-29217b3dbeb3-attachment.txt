@@ -1,0 +1,2 @@
+2025-01-09 22:50:43.380 | DEBUG    | ui_tests.test_home_page:test_get_started_button_visible:18 - Testing visibility of the 'Get Started' button on the home page
+2025-01-09 22:50:46.026 | INFO     | ui_tests.test_home_page:test_get_started_button_visible:23 - 'Get Started' button is visible on the home page

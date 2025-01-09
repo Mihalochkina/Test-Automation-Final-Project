@@ -1,0 +1,2 @@
+2025-01-09 22:56:38.901 | DEBUG    | api_tests.test_breeds:test_breeds_content_type:23 - Testing breeds endpoint for correct content type
+2025-01-09 22:56:39.585 | INFO     | api_tests.test_breeds:test_breeds_content_type:26 - Breeds content type test passed

@@ -1,0 +1,2 @@
+2025-01-09 22:29:03.755 | DEBUG    | ui_tests.test_sign_up_page:sign_up_page:9 - Navigating to the sign-up page
+2025-01-09 22:29:06.140 | DEBUG    | ui_tests.test_sign_up_page:test_sign_up_form_visible:24 - Testing visibility of the sign-up form

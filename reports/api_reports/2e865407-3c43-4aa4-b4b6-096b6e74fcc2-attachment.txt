@@ -1,0 +1,8 @@
+2025-01-09 22:45:05.081 | DEBUG    | ui_tests.test_sign_up_page:sign_up_page:9 - Navigating to the sign-up page
+2025-01-09 22:45:10.498 | DEBUG    | ui_tests.test_sign_up_page:test_title:17 - Testing the title of the sign-up page
+2025-01-09 22:45:10.515 | ERROR    | conftest:pytest_exception_interact:23 - Exception in ui_tests/test_sign_up_page.py::test_title[chromium]: AssertionError, assert 'Sign Up For ...nd Breed Info' == 'Sign Up For ...d Breed Info1'
+  
+  - Sign Up For Free Cat Images and Breed Info1
+  ?                                           -
+  + Sign Up For Free Cat Images and Breed Info
+NoneType: None

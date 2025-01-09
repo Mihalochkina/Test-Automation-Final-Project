@@ -1,0 +1,2 @@
+2025-01-09 22:56:55.085 | DEBUG    | ui_tests.test_home_page:test_home_page_load:9 - Testing home page load
+2025-01-09 22:56:57.893 | INFO     | ui_tests.test_home_page:test_home_page_load:13 - Home page loaded successfully with correct title
