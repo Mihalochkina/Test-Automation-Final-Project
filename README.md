@@ -185,7 +185,6 @@ markers:
 - api: mark a test related to API testing.
 - ui: mark a test related to UI testing.
 </br>
-</br>
 
 ## Tests Result Analysis
 
@@ -216,7 +215,6 @@ allure generate reports/allure_reports/ -o reports/allure_report --clean
 # Serve the report on a local server
 allure serve reports/allure_report 
 ```
-<br>
 
 ### Logging
 
@@ -232,7 +230,7 @@ The logging setup is managed by the `logger.py` module, which configures the `lo
 - **Rotation and Compression**: Each log file has a maximum size of 10 MB. When this size is exceeded, the log file is closed, compressed into a ZIP file, and a new log file is started.
 
 #### Log Format
-Logs are formatted to provide a comprehensive view of each event:
+Logs are formatted to provide a comprehensive view of each event:<br>
 {time:YYYY-MM-DD at HH:mm:ss} | {level} | {message} | {file}:{function}:{line} | {exception}
 
 - **Time**: The timestamp of when the log entry was created.
@@ -242,7 +240,7 @@ Logs are formatted to provide a comprehensive view of each event:
 - **Exception**: Any exception traceback associated with the log entry (if applicable).
 
 #### Usage
-To use the configured logger in your Python scripts, simply import the `logger` from `logger.py`:
+To use the configured logger in your Python scripts, import the `logger` from `logger.py`:
 ```python
 from logger import logger
 
