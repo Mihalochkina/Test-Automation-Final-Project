@@ -204,15 +204,7 @@ Test reports are automatically generated and stored in the `reports/` directory 
   - `3bdfbda5-a307-4510-a0a0-27b05de5d649-container.json`: Stores metadata about the test environment and test run.
 
 #### Viewing Reports
-To view the HTML report, simply open the `report.html` file in any web browser. For a more detailed analysis using Allure reports, you can generate and serve the Allure report locally using the following commands:
-
-```bash
-# Generate the Allure report
-allure generate reports/allure_reports/ -o reports/allure_report --clean
-
-# Serve the report on a local server
-allure serve reports/allure_report 
-```
+To view the HTML report, simply open the `report.html` file in any web browser. For a more detailed analysis using Allure reports, you can use Allure Report(https://allurereport.org/docs/). It is a popular open-source tool for visualizing the results of a test run. Requires additional installations and configuration - https://allurereport.org/docs/install-for-windows/.
 
 ### Logging
 
