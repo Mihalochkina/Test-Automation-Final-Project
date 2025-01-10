@@ -121,8 +121,7 @@ source venv/bin/activate
 **Step 3:** Install Dependencies
 Install all the required Python libraries specified in the requirements.txt file.
 
-```
-bash
+```bash
 pip install -r requirements.txt
 ```
 </br>
