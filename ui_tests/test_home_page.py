@@ -5,6 +5,7 @@ from utils.logger import logger  # Import logger
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_home_page_load(page):
     logger.debug("Testing home page load")
     home_page = HomePage(page)
@@ -14,6 +15,7 @@ def test_home_page_load(page):
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_get_started_button_visible(page):
     logger.debug("Testing visibility of the 'Get Started' button on the home page")
     home_page = HomePage(page)
@@ -24,6 +26,7 @@ def test_get_started_button_visible(page):
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_navigation_to_sign_up(page):
     logger.debug("Testing navigation to the sign-up page via 'Get Started' button")
     home_page = HomePage(page)
@@ -31,5 +34,5 @@ def test_navigation_to_sign_up(page):
     button = home_page.get_started_button()
     with page.expect_navigation():
         button.click()
-    assert page.url == 'https://thecatapi.com/signup'
+    assert page.url == "https://thecatapi.com/signup"
     logger.info("Successfully navigated to the sign-up page")

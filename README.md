@@ -1,24 +1,32 @@
 # TheCatAPI Automation
-
+</br>
 
 ## Key Elements of the README:
+
 1. **Project Overview:** Describes the purpose and main technologies used in the project.
 2. **Project Structure:** Provides a clear outline of the project's directory and files structure.
 3. **Setup Instructions:** Includes step-by-step instructions on how to set up environment to run the tests.
 4. **Running Tests:** Offers commands to run tests in different configurations.
 5. **Tests Result Analysis :** Notes about where to find test reports and logs and how logging and reporting are set up.
-
-
+</br>
+</br>
 
 ## Project Overview
-This project contains automated tests for The Cat API (https://thecatapi.com/). It includes both API and UI tests to ensure extensive coverage of functionalities provided by The Cat API. The tests are built using Python with Pytest for running tests, Requests for API interaction, and Playwright for UI testing.
 
-
+This project contains automated tests for The Cat API (https://thecatapi.com/). It includes both API and UI tests to
+ensure extensive coverage of functionalities provided by The Cat API. The tests are built using Python with Pytest for
+running tests, Requests for API interaction, and Playwright for UI testing.<br> 
+**Code Quality:** black tool is used to format files and flake8 to find warning or errors.
+</br>
+</br>
 
 ## Project Structure
-This structure is formatted to visually represent the hierarchy of main directories and files in the project. Each directory and file is listed with a brief description (as comments) to explain its purpose or contents.
+
+This structure is formatted to visually represent the hierarchy of main directories and files in the project. Each
+directory and file is listed with a brief description (as comments) to explain its purpose or contents.
 
 TheCatAPI_Automation/
+
 ```│
 ├── api_tests/                       # Folder for API tests
 │   ├── __init__.py
@@ -60,95 +68,126 @@ TheCatAPI_Automation/
 ├── pytest.ini                       # Contains pytest-specific settings
 └── conftest.py                      # Global test fixtures and setup functions
 ```
-
-
+</br>
 
 ## Setup Instructions
 
 ### Prerequisites
+
 - Python 3.7 or higher
 - pip (Python package installer)
-- The Cat API! access 
+- The Cat API! access
 
 These instructions will guide you through setting up your The Cat API! access and getting your unique API key:
-- Enter your email address here to get free or premium access to the API.
-- Check your emails. Look out for an email that contains the subject '🐈 Welcome to The Cat API!' (Or Dog!). Check your spam folder if it has not arrived.
-- Copy and store the API key somewhere safe. It should look something like this: live_T941odOy4hS460HfhmmTsDmaZPsmN9eJYrXXjVXnhhco1dChfwsI...
 
+- Enter your email address here to get free or premium access to the API.
+- Check your emails. Look out for an email that contains the subject '🐈 Welcome to The Cat API!' (Or Dog!). Check your
+  spam folder if it has not arrived.
+- Copy and store the API key somewhere safe. It should look something like this:
+  live_T941odOy4hS460HfhmmTsDmaZPsmN9eJYrXXjVXnhhco1dChfwsI...
 
 ### Installation
-To run TheCatAPI Automation project locally, you'll need to follow a series of steps to set up your environment, install dependencies, and execute the tests. Below is a detailed, step-by-step guide to get you started:
 
+To run TheCatAPI Automation project locally, you'll need to follow a series of steps to set up your environment, install
+dependencies, and execute the tests. Below is a detailed, step-by-step guide to get you started:
 
 **Step 1:** Clone the Repository
-```
-bash
+
+```bash
 git clone https://github.com/Mihalochkina/Test-Automation-Final-Project.git
 cd TheCatAPI_Automation
 ```
+</br>
+
 **Step 2:** Set Up Python Environment
-It's recommended to use a virtual environment to manage the dependencies for the project separately from your global Python installation.
+It's recommended to use a virtual environment to manage the dependencies for the project separately from your global
+Python installation.
+
 *For Windows:*
-```
-bash
+
+```bash
 python -m venv venv
 .\venv\Scripts\activate
 ```
 
 *For macOS/Linux:*
-```
-bash
+
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
+</br>
+
 **Step 3:** Install Dependencies
 Install all the required Python libraries specified in the requirements.txt file.
+
 ```
 bash
 pip install -r requirements.txt
 ```
-**Step 4:** Configure Environment Variables
-Go to the config project directory and change API_KEY in secret_config.yaml file to API_KEY from the Prerequisites section:
-![img.png](img.png)
+</br>
+
+**Step 4:** Playwright installation 
+Once Playwright is installed in scope of requirements.txt, you need to run the playwright installation command to
+download the necessary browsers:
+
+```bash
+playwright install
+```
+</br>
+
+**Step 5:** Configure Environment Variables
+- Go to the config project directory and change API_KEY in [TO CONFIGURE]secret_config.yaml file to API_KEY from the
+Prerequisites section:
+![img_1.png](img_1.png)
 
 
+- Rename [TO CONFIGURE]secret_config.yaml to secret_config.yaml
+</br>
+</br>
 
 ## Running Tests
-Navigate to the root directory of your project where the test files are located. You can run the tests using a test runner like pytest.
+
+Navigate to the root directory of your project where the test files are located. You can run the tests using a test
+runner like pytest.
 
 - **Run all tests:**
-```
-bash
+
+```bash
 pytest
 ```
 
 - **Run only API tests:**
+  pytest api_tests/
+
+```bash
 pytest api_tests/
 ```
-bash
-pytest api_tests/
-```
+
 - **Run only UI tests:**
+  pytest ui_tests/
+
+```bash
 pytest ui_tests/
 ```
-bash
-pytest ui_tests/
-```
+
 - **Run tests with specific marker (e.g., smoke tests):**
+  pytest -m smoke
+
+```bash
 pytest -m smoke
 ```
-bash
-pytest -m smoke
-```
+
 markers:
+
 - smoke: mark a test as part of the smoke test suite.
 - regression: mark a test as part of the regression test suite.
 - api: mark a test related to API testing.
 - ui: mark a test related to UI testing.
+</br>
+</br>
 
-
-
-## Tests Result Analysis 
+## Tests Result Analysis
 
 ### Reporting
 

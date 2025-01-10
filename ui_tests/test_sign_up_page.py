@@ -13,6 +13,7 @@ def sign_up_page(page):
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_title(sign_up_page):
     logger.debug("Testing the title of the sign-up page")
     assert sign_up_page.get_title() == "Sign Up For Free Cat Images and Breed Info"
@@ -20,6 +21,7 @@ def test_title(sign_up_page):
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_sign_up_form_visible(sign_up_page):
     logger.debug("Testing visibility of the sign-up form")
     form = sign_up_page.page.locator("form")
@@ -28,6 +30,7 @@ def test_sign_up_form_visible(sign_up_page):
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_email_input_visible(sign_up_page):
     logger.debug("Testing visibility of the email input field")
     email_input = sign_up_page.email_input()
@@ -36,6 +39,7 @@ def test_email_input_visible(sign_up_page):
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_sign_up_button_enabled(sign_up_page):
     logger.debug("Testing if the sign-up button is enabled")
     sign_up_button = sign_up_page.sign_up_button()

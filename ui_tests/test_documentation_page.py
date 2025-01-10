@@ -5,6 +5,7 @@ from utils.logger import logger  # Import logger
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_documentation_page_load(page):
     logger.debug("Testing documentation page load")
     doc_page = DocumentationPage(page)
@@ -14,6 +15,7 @@ def test_documentation_page_load(page):
 
 
 @pytest.mark.ui
+@pytest.mark.smoke
 def test_header_visible(page):
     logger.debug("Testing visibility of the header on the documentation page")
     page.goto("https://docs.thecatapi.com")
@@ -23,6 +25,7 @@ def test_header_visible(page):
 
 
 @pytest.mark.ui
+@pytest.mark.regression
 def test_navigation_to_example(page):
     logger.debug("Testing navigation to the '💻 Code Samples' section")
     page.goto("https://docs.thecatapi.com")

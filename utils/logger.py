@@ -2,6 +2,7 @@ import os
 from datetime import datetime
 from loguru import logger
 
+
 def setup_logger():
     # Setting up the directory for logs
     log_directory = "logs/"
@@ -13,7 +14,7 @@ def setup_logger():
             return
 
     # Configuring loguru logger
-    current_time = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     filename = f"{log_directory}/test_log_{current_time}.log"
 
     # Define the format for the logger
@@ -22,9 +23,16 @@ def setup_logger():
 
     try:
         # Add the log file handler with specified rotation and compression settings
-        logger.add(filename, rotation="10 MB", compression="zip", level="DEBUG", format=log_format)
+        logger.add(
+            filename,
+            rotation="10 MB",
+            compression="zip",
+            level="DEBUG",
+            format=log_format,
+        )
     except Exception as e:
         print(f"Failed to add log file handler: {e}")
+
 
 # Call setup_logger to initialize the logger configuration when this module is imported
 setup_logger()
