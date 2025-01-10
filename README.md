@@ -145,7 +145,6 @@ Prerequisites section:
 
 - Rename [TO CONFIGURE]secret_config.yaml to secret_config.yaml
 </br>
-</br>
 
 ## Running Tests
 
