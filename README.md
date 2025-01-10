@@ -54,8 +54,8 @@ TheCatAPI_Automation/
 │   └── reporter.py                  # Handles generating and managing reports
 │
 ├── reports/                         # Folder to store test reports
-│   ├── api_reports/
-│   └── ui_reports/
+│   ├── allure_reports/
+│   └── html_report/
 │
 ├── config/                                # Configuration files
 │   ├── __init__.py
@@ -192,10 +192,71 @@ markers:
 
 ### Reporting
 
-- Test reports are generated in the `reports/` directory after the execution of corresponding tests.
+#### Overview
+Test reports are automatically generated and stored in the `reports/` directory after the execution of the corresponding tests. These reports provide detailed insights into the test executions, helping you to analyze test outcomes efficiently.
+
+#### HTML Report
+- **Location**: `reports/html_report/report.html`
+- **Description**: This HTML report contains information about all the tests that were run, regardless of whether a specific suite or all tests were executed. The report is updated with each test execution and only contains data from the most recent run. This ensures that the report always reflects the latest state of your test suite.
+
+#### Allure Reports
+- **Location**: `reports/allure_reports/`
+- **Description**: The Allure framework generates more comprehensive test reports, which include various files such as JSON and attachment files. These files are used by the Allure dashboard to render detailed test execution insights, which are helpful for in-depth analysis.
+- **Example Files**:
+  - `2df1ca3d-387c-455f-a10c-5a8066b53856-result.json`: Contains the results of the test executions.
+  - `3b45a46c-4009-4c69-af95-99694906c32e-attachment.txt`: Includes attachments such as logs, screenshots, etc.
+  - `3bdfbda5-a307-4510-a0a0-27b05de5d649-container.json`: Stores metadata about the test environment and test run.
+
+#### Viewing Reports
+To view the HTML report, simply open the `report.html` file in any web browser. For a more detailed analysis using Allure reports, you can generate and serve the Allure report locally using the following commands:
+
+```bash
+# Generate the Allure report
+allure generate reports/allure_reports/ -o reports/allure_report --clean
+
+# Serve the report on a local server
+allure serve reports/allure_report 
+```
+<br>
 
 ### Logging
 
-- Custom logging is set up under the `utils/` directory and can be imported and used in any of the test modules.
+#### Overview
+In this project, we use the `loguru` library for its flexible and powerful logging capabilities.
+
+#### Configuration
+The logging setup is managed by the `logger.py` module, which configures the `loguru` logger to write logs to files in the `logs/` directory. Each log file is named with the timestamp of when the logging started, ensuring that log files are uniquely identifiable and organized chronologically.
+
+#### Log Files
+- **Location**: All log files are stored in the `logs/` directory at the root of the project.
+- **Naming Convention**: Log files are named in the format `test_log_{YYYY-MM-DD_HH-MM-SS}.log`, where the date and time represent when the logging was initiated.
+- **Rotation and Compression**: Each log file has a maximum size of 10 MB. When this size is exceeded, the log file is closed, compressed into a ZIP file, and a new log file is started.
+
+#### Log Format
+Logs are formatted to provide a comprehensive view of each event:
+{time:YYYY-MM-DD at HH:mm:ss} | {level} | {message} | {file}:{function}:{line} | {exception}
+
+- **Time**: The timestamp of when the log entry was created.
+- **Level**: The severity level of the log entry (e.g., DEBUG, INFO, WARNING, ERROR).
+- **Message**: The log message describing the event.
+- **File, Function, Line**: The source file, function, and line number where the log entry was generated.
+- **Exception**: Any exception traceback associated with the log entry (if applicable).
+
+#### Usage
+To use the configured logger in your Python scripts, simply import the `logger` from `logger.py`:
+```python
+from logger import logger
+
+logger.info("This is an informational message")
+logger.error("This is an error message")
+```
+The logger supports various levels of severity, including debug, info, warning, error, and critical.
+
+#### Viewing Logs
+To view the logs, navigate to the logs/ directory and open the desired log file. The files can be opened with any text editor or log viewer that supports plain text files.
+
+
+
+
 
 
