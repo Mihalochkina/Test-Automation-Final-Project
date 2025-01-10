@@ -57,15 +57,16 @@ TheCatAPI_Automation/
 │   ├── api_reports/
 │   └── ui_reports/
 │
-├── config/                          # Configuration files
+├── config/                                # Configuration files
 │   ├── __init__.py
-│   ├── config.py                    # General configuration settings
-│   └── secret_config.yaml           # Contains sensitive configuration details
+│   ├── config.py                          # General configuration settings
+│   └── [TO CONFIGURE]secret_config.yaml   # Contains sensitive configuration details
 │
 ├── requirements.txt                 # Python libraries required by the project
 ├── README.md                        # Project overview and setup instructions
 ├── .gitignore                       # Specifies intentionally untracked files to ignore
 ├── pytest.ini                       # Contains pytest-specific settings
+├── .flake8                          # Contains flake8 specific settings
 └── conftest.py                      # Global test fixtures and setup functions
 ```
 </br>
