@@ -99,7 +99,7 @@ cd TheCatAPI_Automation
 ```
 </br>
 
-**Step 2:** Set Up Python Environment
+**Step 2:** Set Up Python Environment<br>
 It's recommended to use a virtual environment to manage the dependencies for the project separately from your global
 Python installation.
 
@@ -118,7 +118,7 @@ source venv/bin/activate
 ```
 </br>
 
-**Step 3:** Install Dependencies
+**Step 3:** Install Dependencies<br>
 Install all the required Python libraries specified in the requirements.txt file.
 
 ```bash
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 ```
 </br>
 
-**Step 4:** Playwright installation 
+**Step 4:** Playwright installation<br> 
 Once Playwright is installed in scope of requirements.txt, you need to run the playwright installation command to
 download the necessary browsers:
 
@@ -135,7 +135,7 @@ playwright install
 ```
 </br>
 
-**Step 5:** Configure Environment Variables
+**Step 5:** Configure Environment Variables<br>
 - Go to the config project directory and change API_KEY in [TO CONFIGURE]secret_config.yaml file to API_KEY from the
 Prerequisites section:
 ![img_1.png](img_1.png)
