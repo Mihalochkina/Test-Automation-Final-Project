@@ -9,7 +9,6 @@
 4. **Running Tests:** Offers commands to run tests in different configurations.
 5. **Tests Result Analysis :** Notes about where to find test reports and logs and how logging and reporting are set up.
 </br>
-</br>
 
 ## Project Overview
 
